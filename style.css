@@ -129,15 +129,56 @@ nav{
 .footer_image img{
   width: 100%;
 }
-
-footer section{
-display: flex;
-width: 50%;
-}
+ 
 footer{
   display: flex;
   align-items: center;
   width: 100%;
   background-color: #333;
   color: white; 
+}
+footer section{
+  width: 50%;
+  }
+a{
+    text-decoration: none;
+    list-style-type: none;
+  }
+article a, nav a{
+  color: aliceblue;
+}
+button{
+  display: block;
+  margin-left: 48%;
+  width: 30%;
+  height: 30px;
+  background-color: #333;
+  color: white;
+}
+.section_nav{
+  display: flex;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+.section_nav nav a, .section_right{
+  border-left: 1px solid gainsboro;
+}
+footer{
+  padding: 20px 20px;
+}
+span{
+  font-size: 12px;
+}
+article a{
+  display: flex;
+  border-bottom: 1px solid gainsboro;
+  margin-right: 20px;
+}
+article{
+  margin-top: 20px;
+}
+.section_right p{
+margin-left: 20px;
 }
